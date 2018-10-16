@@ -79,7 +79,7 @@ enum ExampleProvider {
         let v6 = ExampleViewController()
         let v7 = ExampleViewController()
         let v8 = ExampleViewController()
-        
+        tabBarController.moreNavigationController.navigationController?.isNavigationBarHidden=true
         v1.tabBarItem = UITabBarItem.init(title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
         v2.tabBarItem = UITabBarItem.init(title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
         v3.tabBarItem = UITabBarItem.init(title: "Photo", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
