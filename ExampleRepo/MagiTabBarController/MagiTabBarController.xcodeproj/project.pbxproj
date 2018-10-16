@@ -18,6 +18,31 @@
 		353E8BC621758E7A003EE2C8 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8BC521758E7A003EE2C8 /* WebView.storyboard */; };
 		353E8BC821758F78003EE2C8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BC721758F78003EE2C8 /* WebViewController.swift */; };
 		353E8BCA21759257003EE2C8 /* MagiNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BC921759257003EE2C8 /* MagiNavigationController.swift */; };
+		353E8BCC21759868003EE2C8 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BCB21759868003EE2C8 /* ExampleViewController.swift */; };
+		353E8BCF2175ABE2003EE2C8 /* MagiTabBarItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BCE2175ABE2003EE2C8 /* MagiTabBarItemContainer.swift */; };
+		353E8BD12175ACEF003EE2C8 /* MagiTabBarItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BD02175ACEF003EE2C8 /* MagiTabBarItemContentView.swift */; };
+		353E8BD32175ADC4003EE2C8 /* MagiTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BD22175ADC4003EE2C8 /* MagiTabBarItem.swift */; };
+		353E8BD52175AEBA003EE2C8 /* MagiTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BD42175AEBA003EE2C8 /* MagiTabBar.swift */; };
+		353E8BD72175AF9D003EE2C8 /* MagiTabBarItemMoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BD62175AF9D003EE2C8 /* MagiTabBarItemMoreContentView.swift */; };
+		353E8BD92175AFD6003EE2C8 /* MagiTabBarItemBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BD82175AFD6003EE2C8 /* MagiTabBarItemBadgeView.swift */; };
+		353E8BDB2175B06A003EE2C8 /* MagiTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BDA2175B06A003EE2C8 /* MagiTabBarController.swift */; };
+		353E8BDF2175BAFB003EE2C8 /* ExampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BDE2175BAFB003EE2C8 /* ExampleProvider.swift */; };
+		353E8BE22175BC7F003EE2C8 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BE12175BC7F003EE2C8 /* ExampleBasicContentView.swift */; };
+		353E8BE42175BCDF003EE2C8 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BE32175BCDF003EE2C8 /* ExampleBouncesContentView.swift */; };
+		353E8BE62175BD1C003EE2C8 /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BE52175BD1C003EE2C8 /* ExampleBackgroundContentView.swift */; };
+		353E8BE82175BD4D003EE2C8 /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BE72175BD4D003EE2C8 /* ExampleAnimateTipsContentView.swift */; };
+		353E8BEA2175BD6E003EE2C8 /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BE92175BD6E003EE2C8 /* ExampleHighlightableContentView.swift */; };
+		353E8BEC2175BD97003EE2C8 /* ExampleIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BEB2175BD97003EE2C8 /* ExampleIrregularityBasicContentView.swift */; };
+		353E8BEF2175BDFF003EE2C8 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E8BEE2175BDFF003EE2C8 /* pop.framework */; };
+		353E8BF12175BE21003EE2C8 /* ExampleTipsBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BF02175BE21003EE2C8 /* ExampleTipsBasicContentView.swift */; };
+		353E8BF22175BE9B003EE2C8 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E8BEE2175BDFF003EE2C8 /* pop.framework */; };
+		353E8BF32175BE9B003EE2C8 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 353E8BEE2175BDFF003EE2C8 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		353E8BF92175BED1003EE2C8 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E8BF52175BED1003EE2C8 /* Lottie.framework */; };
+		353E8BFA2175BED1003EE2C8 /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 353E8BF62175BED1003EE2C8 /* IconTransitions.json */; };
+		353E8BFB2175BED1003EE2C8 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 353E8BF72175BED1003EE2C8 /* LottieLogo1.json */; };
+		353E8BFC2175BED1003EE2C8 /* ExampleLottieAnimateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BF82175BED1003EE2C8 /* ExampleLottieAnimateContentView.swift */; };
+		353E8BFD2175BEDE003EE2C8 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353E8BF52175BED1003EE2C8 /* Lottie.framework */; };
+		353E8BFE2175BEDE003EE2C8 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 353E8BF52175BED1003EE2C8 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +62,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		353E8BF42175BE9B003EE2C8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				353E8BF32175BE9B003EE2C8 /* pop.framework in Embed Frameworks */,
+				353E8BFE2175BEDE003EE2C8 /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		353E8B8721758BFF003EE2C8 /* MagiTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		353E8B8A21758BFF003EE2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +95,27 @@
 		353E8BC521758E7A003EE2C8 /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
 		353E8BC721758F78003EE2C8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		353E8BC921759257003EE2C8 /* MagiNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiNavigationController.swift; sourceTree = "<group>"; };
+		353E8BCB21759868003EE2C8 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		353E8BCE2175ABE2003EE2C8 /* MagiTabBarItemContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarItemContainer.swift; sourceTree = "<group>"; };
+		353E8BD02175ACEF003EE2C8 /* MagiTabBarItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarItemContentView.swift; sourceTree = "<group>"; };
+		353E8BD22175ADC4003EE2C8 /* MagiTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarItem.swift; sourceTree = "<group>"; };
+		353E8BD42175AEBA003EE2C8 /* MagiTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBar.swift; sourceTree = "<group>"; };
+		353E8BD62175AF9D003EE2C8 /* MagiTabBarItemMoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarItemMoreContentView.swift; sourceTree = "<group>"; };
+		353E8BD82175AFD6003EE2C8 /* MagiTabBarItemBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarItemBadgeView.swift; sourceTree = "<group>"; };
+		353E8BDA2175B06A003EE2C8 /* MagiTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarController.swift; sourceTree = "<group>"; };
+		353E8BDE2175BAFB003EE2C8 /* ExampleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProvider.swift; sourceTree = "<group>"; };
+		353E8BE12175BC7F003EE2C8 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		353E8BE32175BCDF003EE2C8 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		353E8BE52175BD1C003EE2C8 /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		353E8BE72175BD4D003EE2C8 /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		353E8BE92175BD6E003EE2C8 /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		353E8BEB2175BD97003EE2C8 /* ExampleIrregularityBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleIrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		353E8BEE2175BDFF003EE2C8 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pop.framework; sourceTree = "<group>"; };
+		353E8BF02175BE21003EE2C8 /* ExampleTipsBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTipsBasicContentView.swift; sourceTree = "<group>"; };
+		353E8BF52175BED1003EE2C8 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lottie.framework; sourceTree = "<group>"; };
+		353E8BF62175BED1003EE2C8 /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		353E8BF72175BED1003EE2C8 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		353E8BF82175BED1003EE2C8 /* ExampleLottieAnimateContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleLottieAnimateContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +123,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353E8BF22175BE9B003EE2C8 /* pop.framework in Frameworks */,
+				353E8BFD2175BEDE003EE2C8 /* Lottie.framework in Frameworks */,
+				353E8BEF2175BDFF003EE2C8 /* pop.framework in Frameworks */,
+				353E8BF92175BED1003EE2C8 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,15 +170,16 @@
 		353E8B8921758BFF003EE2C8 /* MagiTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				353E8BED2175BDFF003EE2C8 /* Framework */,
 				353E8BB821758C1B003EE2C8 /* Sources */,
 				353E8BB921758C5D003EE2C8 /* Lottie */,
-				353E8B8A21758BFF003EE2C8 /* AppDelegate.swift */,
 				353E8BC421758E56003EE2C8 /* SubViewController */,
+				353E8BCD2175A389003EE2C8 /* SB */,
+				353E8BE02175BC2D003EE2C8 /* Content */,
 				353E8B8C21758BFF003EE2C8 /* ViewController.swift */,
+				353E8BDE2175BAFB003EE2C8 /* ExampleProvider.swift */,
 				353E8BC921759257003EE2C8 /* MagiNavigationController.swift */,
-				353E8B8E21758BFF003EE2C8 /* Main.storyboard */,
-				353E8B9121758C01003EE2C8 /* Assets.xcassets */,
-				353E8B9321758C01003EE2C8 /* LaunchScreen.storyboard */,
+				353E8B8A21758BFF003EE2C8 /* AppDelegate.swift */,
 				353E8B9621758C01003EE2C8 /* Info.plist */,
 			);
 			path = MagiTabBarController;
@@ -141,6 +207,13 @@
 			isa = PBXGroup;
 			children = (
 				353E8BC221758E03003EE2C8 /* Localizable.strings */,
+				353E8BDA2175B06A003EE2C8 /* MagiTabBarController.swift */,
+				353E8BD42175AEBA003EE2C8 /* MagiTabBar.swift */,
+				353E8BD22175ADC4003EE2C8 /* MagiTabBarItem.swift */,
+				353E8BCE2175ABE2003EE2C8 /* MagiTabBarItemContainer.swift */,
+				353E8BD02175ACEF003EE2C8 /* MagiTabBarItemContentView.swift */,
+				353E8BD62175AF9D003EE2C8 /* MagiTabBarItemMoreContentView.swift */,
+				353E8BD82175AFD6003EE2C8 /* MagiTabBarItemBadgeView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -148,6 +221,10 @@
 		353E8BB921758C5D003EE2C8 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
+				353E8BF82175BED1003EE2C8 /* ExampleLottieAnimateContentView.swift */,
+				353E8BF62175BED1003EE2C8 /* IconTransitions.json */,
+				353E8BF52175BED1003EE2C8 /* Lottie.framework */,
+				353E8BF72175BED1003EE2C8 /* LottieLogo1.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -157,8 +234,41 @@
 			children = (
 				353E8BC521758E7A003EE2C8 /* WebView.storyboard */,
 				353E8BC721758F78003EE2C8 /* WebViewController.swift */,
+				353E8BCB21759868003EE2C8 /* ExampleViewController.swift */,
 			);
 			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		353E8BCD2175A389003EE2C8 /* SB */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B9121758C01003EE2C8 /* Assets.xcassets */,
+				353E8B8E21758BFF003EE2C8 /* Main.storyboard */,
+				353E8B9321758C01003EE2C8 /* LaunchScreen.storyboard */,
+			);
+			path = SB;
+			sourceTree = "<group>";
+		};
+		353E8BE02175BC2D003EE2C8 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				353E8BE12175BC7F003EE2C8 /* ExampleBasicContentView.swift */,
+				353E8BE32175BCDF003EE2C8 /* ExampleBouncesContentView.swift */,
+				353E8BE52175BD1C003EE2C8 /* ExampleBackgroundContentView.swift */,
+				353E8BE72175BD4D003EE2C8 /* ExampleAnimateTipsContentView.swift */,
+				353E8BE92175BD6E003EE2C8 /* ExampleHighlightableContentView.swift */,
+				353E8BEB2175BD97003EE2C8 /* ExampleIrregularityBasicContentView.swift */,
+				353E8BF02175BE21003EE2C8 /* ExampleTipsBasicContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		353E8BED2175BDFF003EE2C8 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				353E8BEE2175BDFF003EE2C8 /* pop.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +281,7 @@
 				353E8B8321758BFF003EE2C8 /* Sources */,
 				353E8B8421758BFF003EE2C8 /* Frameworks */,
 				353E8B8521758BFF003EE2C8 /* Resources */,
+				353E8BF42175BE9B003EE2C8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,8 +377,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				353E8B9521758C01003EE2C8 /* LaunchScreen.storyboard in Resources */,
+				353E8BFB2175BED1003EE2C8 /* LottieLogo1.json in Resources */,
 				353E8BC321758E03003EE2C8 /* Localizable.strings in Resources */,
 				353E8BC621758E7A003EE2C8 /* WebView.storyboard in Resources */,
+				353E8BFA2175BED1003EE2C8 /* IconTransitions.json in Resources */,
 				353E8B9221758C01003EE2C8 /* Assets.xcassets in Resources */,
 				353E8B9021758BFF003EE2C8 /* Main.storyboard in Resources */,
 			);
@@ -294,10 +407,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353E8BF12175BE21003EE2C8 /* ExampleTipsBasicContentView.swift in Sources */,
+				353E8BE22175BC7F003EE2C8 /* ExampleBasicContentView.swift in Sources */,
+				353E8BD72175AF9D003EE2C8 /* MagiTabBarItemMoreContentView.swift in Sources */,
+				353E8BEA2175BD6E003EE2C8 /* ExampleHighlightableContentView.swift in Sources */,
+				353E8BD52175AEBA003EE2C8 /* MagiTabBar.swift in Sources */,
+				353E8BD32175ADC4003EE2C8 /* MagiTabBarItem.swift in Sources */,
+				353E8BE42175BCDF003EE2C8 /* ExampleBouncesContentView.swift in Sources */,
 				353E8B8D21758BFF003EE2C8 /* ViewController.swift in Sources */,
+				353E8BE82175BD4D003EE2C8 /* ExampleAnimateTipsContentView.swift in Sources */,
+				353E8BEC2175BD97003EE2C8 /* ExampleIrregularityBasicContentView.swift in Sources */,
+				353E8BFC2175BED1003EE2C8 /* ExampleLottieAnimateContentView.swift in Sources */,
 				353E8B8B21758BFF003EE2C8 /* AppDelegate.swift in Sources */,
+				353E8BCF2175ABE2003EE2C8 /* MagiTabBarItemContainer.swift in Sources */,
 				353E8BCA21759257003EE2C8 /* MagiNavigationController.swift in Sources */,
+				353E8BDB2175B06A003EE2C8 /* MagiTabBarController.swift in Sources */,
 				353E8BC821758F78003EE2C8 /* WebViewController.swift in Sources */,
+				353E8BE62175BD1C003EE2C8 /* ExampleBackgroundContentView.swift in Sources */,
+				353E8BCC21759868003EE2C8 /* ExampleViewController.swift in Sources */,
+				353E8BDF2175BAFB003EE2C8 /* ExampleProvider.swift in Sources */,
+				353E8BD12175ACEF003EE2C8 /* MagiTabBarItemContentView.swift in Sources */,
+				353E8BD92175AFD6003EE2C8 /* MagiTabBarItemBadgeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +607,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MagiTabBarController/Lottie",
+					"$(PROJECT_DIR)/MagiTabBarController/Framework",
 				);
 				INFOPLIST_FILE = MagiTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +630,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MagiTabBarController/Lottie",
+					"$(PROJECT_DIR)/MagiTabBarController/Framework",
 				);
 				INFOPLIST_FILE = MagiTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

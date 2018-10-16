@@ -153,7 +153,7 @@ extension ViewController: UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        /*
+        
         switch indexPath.section {
         case 0:
             switch indexPath.row {
@@ -245,12 +245,12 @@ extension ViewController: UITableViewDelegate {
         default:
             break
         }
-        */
+ 
     }
 
 }
 
-extension ViewController {
+extension ViewController: UITabBarControllerDelegate {
     
 }
 
