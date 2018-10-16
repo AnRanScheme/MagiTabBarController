@@ -40,7 +40,7 @@ You can download and build MagiTabBarControllerExample project, and you will fin
 ### CocoaPods
 
 ``` ruby
-pod "MagiTabBarController-swift"
+pod "MagiTabBarController"
 ```
 
 ### Manually
