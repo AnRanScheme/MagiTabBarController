@@ -1,0 +1,6 @@
+framework module MagiTabBarController {
+  umbrella header "MagiTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

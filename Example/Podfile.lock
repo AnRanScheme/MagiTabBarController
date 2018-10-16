@@ -1,0 +1,16 @@
+PODS:
+  - MagiTabBarController (0.1.0)
+
+DEPENDENCIES:
+  - MagiTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  MagiTabBarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MagiTabBarController: e4197f6c4af22421ea45c633fc3af3ccf4b43581
+
+PODFILE CHECKSUM: 965c32df094942cd82122fb38787dbff58767ce2
+
+COCOAPODS: 1.5.3

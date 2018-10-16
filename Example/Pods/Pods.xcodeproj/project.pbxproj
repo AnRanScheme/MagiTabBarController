@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD95008EC250C5447547E60CA2DA2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3C8EA7EEEF2902C6D160DBC666B0A267 /* Pods-MagiTabBarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB8A9C3E8B7945E0C17BE38211CF215 /* Pods-MagiTabBarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		424FCF52A5BC296232AF23A42DF46B3E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6670F8AD777329F45646C8249B950CD2 /* ReplaceMe.swift */; };
+		5B09A33B62C320E00F56E85BFAAD6BDE /* Pods-MagiTabBarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F4E535500516376B8F94C0E05A24E8 /* Pods-MagiTabBarController_Example-dummy.m */; };
+		7359EA158A24578D51B6DDEE3C429DF2 /* MagiTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E1FF38497B5BBDD1CEA42BE253DF92B /* MagiTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		828E0A7AF8A6E8661BE569FB31A562CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		88CD985516C54C54D3C1455B241511F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A8B3751FDB08284EA20B11192CB6E37F /* Pods-MagiTabBarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EF2C517B90BC9522D40F7E4021DF4 /* Pods-MagiTabBarController_Tests-dummy.m */; };
+		BE8191F714A3D49368CCB9DBA7A46491 /* MagiTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E36D163572B964439667BC7A9F53C227 /* MagiTabBarController-dummy.m */; };
+		E578BB8BB1D34753703FF06DD4D604CF /* Pods-MagiTabBarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 442E3754DB1F438DFC7D51E2308D827B /* Pods-MagiTabBarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45828C76CBD856DC88660B1DFBC1E964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFC6FC8CA4C83AE2B8338DF5FB721C5;
+			remoteInfo = "Pods-MagiTabBarController_Example";
+		};
+		F41872CC8AA4C90D1A49D6EC85F0D851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B211796A1173D166541A866FF594AF4E;
+			remoteInfo = MagiTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09723B260197C4383504FC6BDD6DF00D /* MagiTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagiTabBarController.xcconfig; sourceTree = "<group>"; };
+		0EC6C12CD13E255A4607A1514CB195A2 /* Pods_MagiTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagiTabBarController_Tests.framework; path = "Pods-MagiTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5A4C105BEF78C60E4AA387A0139953 /* Pods-MagiTabBarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagiTabBarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FA51C099E79C9AC6B821C583E266D3E /* Pods-MagiTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagiTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		14609CDF09B12818F77B143A4046DDAD /* MagiTabBarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MagiTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		147BD05AAAA5B7505E85B4D1F5CB704F /* Pods_MagiTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagiTabBarController_Example.framework; path = "Pods-MagiTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193AED5F27F4505C353E11F8C096443F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25017E58BEB0F55D8457A16672E9223D /* Pods-MagiTabBarController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagiTabBarController_Tests-resources.sh"; sourceTree = "<group>"; };
+		29E01834219DFAEFE6914D8CE43800BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3050589398863C72860C1D022C8A1AA3 /* Pods-MagiTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagiTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
+		442E3754DB1F438DFC7D51E2308D827B /* Pods-MagiTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagiTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
+		4AB8A9C3E8B7945E0C17BE38211CF215 /* Pods-MagiTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagiTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4DACE402A1DC58BD7086095C6AA64968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		54146BB135116B0A827B64ECD5080C23 /* Pods-MagiTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagiTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5577A179DE1D8FF746D617309C7A84F4 /* Pods-MagiTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagiTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		569D798ADD2767500178F7138590FF60 /* Pods-MagiTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagiTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CAEF25B88BA2E434B7EC79CC48D6AAC /* MagiTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagiTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		5E1FF38497B5BBDD1CEA42BE253DF92B /* MagiTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagiTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		6670F8AD777329F45646C8249B950CD2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MagiTabBarController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6BDA995E15B6032E02992D928290504B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705268D54AFCD193D800F14D8F626201 /* Pods-MagiTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagiTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		72D6B50F783E085A1E0EE16119A56D5C /* MagiTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MagiTabBarController.framework; path = MagiTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E102ECA56E00DEE2BB59A23BC32F07 /* Pods-MagiTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagiTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7BE7571E59E049A0C1753AE49F1882F4 /* Pods-MagiTabBarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagiTabBarController_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7975ADB543230AAEE366F93E8FA094F /* Pods-MagiTabBarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagiTabBarController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF70BB6AA1070BCC82EE0B0A944C894C /* Pods-MagiTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagiTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B44450DEC50E6A7D040F7842496FBB27 /* Pods-MagiTabBarController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagiTabBarController_Example-resources.sh"; sourceTree = "<group>"; };
+		D9F4E535500516376B8F94C0E05A24E8 /* Pods-MagiTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagiTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
+		E26226D6A68204A047170E16CF45F554 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E36D163572B964439667BC7A9F53C227 /* MagiTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagiTabBarController-dummy.m"; sourceTree = "<group>"; };
+		E473EFD6DD2486DB4277DF21EBFDDA12 /* Pods-MagiTabBarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagiTabBarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E97F8289614299B8F0E0683A4DC17873 /* MagiTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagiTabBarController.modulemap; sourceTree = "<group>"; };
+		E98EF2C517B90BC9522D40F7E4021DF4 /* Pods-MagiTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagiTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C4ACF4F2787C9B467BAA38CB560481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD95008EC250C5447547E60CA2DA2AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7722637D0FE137F678E7AAE514FBAFD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828E0A7AF8A6E8661BE569FB31A562CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEC20329E9F6B6EA0782AEA14F87642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CD985516C54C54D3C1455B241511F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B1DC1FB9786E32AE3BA3572D3374DF /* Pods-MagiTabBarController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				193AED5F27F4505C353E11F8C096443F /* Info.plist */,
+				3050589398863C72860C1D022C8A1AA3 /* Pods-MagiTabBarController_Tests.modulemap */,
+				0F5A4C105BEF78C60E4AA387A0139953 /* Pods-MagiTabBarController_Tests-acknowledgements.markdown */,
+				54146BB135116B0A827B64ECD5080C23 /* Pods-MagiTabBarController_Tests-acknowledgements.plist */,
+				E98EF2C517B90BC9522D40F7E4021DF4 /* Pods-MagiTabBarController_Tests-dummy.m */,
+				0FA51C099E79C9AC6B821C583E266D3E /* Pods-MagiTabBarController_Tests-frameworks.sh */,
+				25017E58BEB0F55D8457A16672E9223D /* Pods-MagiTabBarController_Tests-resources.sh */,
+				4AB8A9C3E8B7945E0C17BE38211CF215 /* Pods-MagiTabBarController_Tests-umbrella.h */,
+				569D798ADD2767500178F7138590FF60 /* Pods-MagiTabBarController_Tests.debug.xcconfig */,
+				5577A179DE1D8FF746D617309C7A84F4 /* Pods-MagiTabBarController_Tests.release.xcconfig */,
+			);
+			name = "Pods-MagiTabBarController_Tests";
+			path = "Target Support Files/Pods-MagiTabBarController_Tests";
+			sourceTree = "<group>";
+		};
+		352DC0F79C8C35DB4020A0F73B9698DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8734BE8367DCB7E1EE29D2A91E29C442 /* Pods-MagiTabBarController_Example */,
+				28B1DC1FB9786E32AE3BA3572D3374DF /* Pods-MagiTabBarController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		544F7740D623CE2D15B25E0C43ED0986 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E26226D6A68204A047170E16CF45F554 /* LICENSE */,
+				14609CDF09B12818F77B143A4046DDAD /* MagiTabBarController.podspec */,
+				4DACE402A1DC58BD7086095C6AA64968 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		55DF3B9D53809AAB0D39464FD9F4CD07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BDA995E15B6032E02992D928290504B /* Info.plist */,
+				E97F8289614299B8F0E0683A4DC17873 /* MagiTabBarController.modulemap */,
+				09723B260197C4383504FC6BDD6DF00D /* MagiTabBarController.xcconfig */,
+				E36D163572B964439667BC7A9F53C227 /* MagiTabBarController-dummy.m */,
+				5CAEF25B88BA2E434B7EC79CC48D6AAC /* MagiTabBarController-prefix.pch */,
+				5E1FF38497B5BBDD1CEA42BE253DF92B /* MagiTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MagiTabBarController";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A9D6A3BFDEBDA755652687989E61E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D6B50F783E085A1E0EE16119A56D5C /* MagiTabBarController.framework */,
+				147BD05AAAA5B7505E85B4D1F5CB704F /* Pods_MagiTabBarController_Example.framework */,
+				0EC6C12CD13E255A4607A1514CB195A2 /* Pods_MagiTabBarController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CFFCB47C8000A995997AC0A772DD8351 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7A9D6A3BFDEBDA755652687989E61E07 /* Products */,
+				352DC0F79C8C35DB4020A0F73B9698DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8734BE8367DCB7E1EE29D2A91E29C442 /* Pods-MagiTabBarController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				29E01834219DFAEFE6914D8CE43800BC /* Info.plist */,
+				7BE7571E59E049A0C1753AE49F1882F4 /* Pods-MagiTabBarController_Example.modulemap */,
+				E473EFD6DD2486DB4277DF21EBFDDA12 /* Pods-MagiTabBarController_Example-acknowledgements.markdown */,
+				78E102ECA56E00DEE2BB59A23BC32F07 /* Pods-MagiTabBarController_Example-acknowledgements.plist */,
+				D9F4E535500516376B8F94C0E05A24E8 /* Pods-MagiTabBarController_Example-dummy.m */,
+				AF70BB6AA1070BCC82EE0B0A944C894C /* Pods-MagiTabBarController_Example-frameworks.sh */,
+				B44450DEC50E6A7D040F7842496FBB27 /* Pods-MagiTabBarController_Example-resources.sh */,
+				442E3754DB1F438DFC7D51E2308D827B /* Pods-MagiTabBarController_Example-umbrella.h */,
+				705268D54AFCD193D800F14D8F626201 /* Pods-MagiTabBarController_Example.debug.xcconfig */,
+				A7975ADB543230AAEE366F93E8FA094F /* Pods-MagiTabBarController_Example.release.xcconfig */,
+			);
+			name = "Pods-MagiTabBarController_Example";
+			path = "Target Support Files/Pods-MagiTabBarController_Example";
+			sourceTree = "<group>";
+		};
+		983BCF3B9CC9F42802BA8D189A5D3B19 /* MagiTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6670F8AD777329F45646C8249B950CD2 /* ReplaceMe.swift */,
+				544F7740D623CE2D15B25E0C43ED0986 /* Pod */,
+				55DF3B9D53809AAB0D39464FD9F4CD07 /* Support Files */,
+			);
+			name = MagiTabBarController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFFCB47C8000A995997AC0A772DD8351 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983BCF3B9CC9F42802BA8D189A5D3B19 /* MagiTabBarController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69CDB0730DA0AAF062150FD98519FC8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E578BB8BB1D34753703FF06DD4D604CF /* Pods-MagiTabBarController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87557A88F956545322ADCAF82E5A03ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8EA7EEEF2902C6D160DBC666B0A267 /* Pods-MagiTabBarController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C48EB4D3F9F55DF00FA5E25BD10748 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7359EA158A24578D51B6DDEE3C429DF2 /* MagiTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D1CA726A2D3A4E6CFB010CD7ADEEA8A /* Pods-MagiTabBarController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31137F1734A639B97DB8FD2BB8969039 /* Build configuration list for PBXNativeTarget "Pods-MagiTabBarController_Tests" */;
+			buildPhases = (
+				86A703B6C5A231398CE0DEDD38ECB33C /* Sources */,
+				7722637D0FE137F678E7AAE514FBAFD9 /* Frameworks */,
+				87557A88F956545322ADCAF82E5A03ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C4F3E3E9C948CC0D52F197A4A3B5E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagiTabBarController_Tests";
+			productName = "Pods-MagiTabBarController_Tests";
+			productReference = 0EC6C12CD13E255A4607A1514CB195A2 /* Pods_MagiTabBarController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEFC6FC8CA4C83AE2B8338DF5FB721C5 /* Pods-MagiTabBarController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97A45CBC899EE5E90E2B14B717EA03F /* Build configuration list for PBXNativeTarget "Pods-MagiTabBarController_Example" */;
+			buildPhases = (
+				9F2F9A697C9575C4860B24A6B43270F4 /* Sources */,
+				9FEC20329E9F6B6EA0782AEA14F87642 /* Frameworks */,
+				69CDB0730DA0AAF062150FD98519FC8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1119D7ADF11CC3A03A8484CFCA86131 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagiTabBarController_Example";
+			productName = "Pods-MagiTabBarController_Example";
+			productReference = 147BD05AAAA5B7505E85B4D1F5CB704F /* Pods_MagiTabBarController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B211796A1173D166541A866FF594AF4E /* MagiTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2C21CCDEE3E9891EE8BCF094397B2D /* Build configuration list for PBXNativeTarget "MagiTabBarController" */;
+			buildPhases = (
+				691203E1F5F4E4ED99095D1E2A0F53DD /* Sources */,
+				44C4ACF4F2787C9B467BAA38CB560481 /* Frameworks */,
+				D4C48EB4D3F9F55DF00FA5E25BD10748 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiTabBarController;
+			productName = MagiTabBarController;
+			productReference = 72D6B50F783E085A1E0EE16119A56D5C /* MagiTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7A9D6A3BFDEBDA755652687989E61E07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B211796A1173D166541A866FF594AF4E /* MagiTabBarController */,
+				AEFC6FC8CA4C83AE2B8338DF5FB721C5 /* Pods-MagiTabBarController_Example */,
+				4D1CA726A2D3A4E6CFB010CD7ADEEA8A /* Pods-MagiTabBarController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691203E1F5F4E4ED99095D1E2A0F53DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8191F714A3D49368CCB9DBA7A46491 /* MagiTabBarController-dummy.m in Sources */,
+				424FCF52A5BC296232AF23A42DF46B3E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A703B6C5A231398CE0DEDD38ECB33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B3751FDB08284EA20B11192CB6E37F /* Pods-MagiTabBarController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2F9A697C9575C4860B24A6B43270F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B09A33B62C320E00F56E85BFAAD6BDE /* Pods-MagiTabBarController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C4F3E3E9C948CC0D52F197A4A3B5E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagiTabBarController_Example";
+			target = AEFC6FC8CA4C83AE2B8338DF5FB721C5 /* Pods-MagiTabBarController_Example */;
+			targetProxy = 45828C76CBD856DC88660B1DFBC1E964 /* PBXContainerItemProxy */;
+		};
+		E1119D7ADF11CC3A03A8484CFCA86131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagiTabBarController;
+			target = B211796A1173D166541A866FF594AF4E /* MagiTabBarController */;
+			targetProxy = F41872CC8AA4C90D1A49D6EC85F0D851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24FB4252ED8D00CFFC0A4AD5DF7D95F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09723B260197C4383504FC6BDD6DF00D /* MagiTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MagiTabBarController/MagiTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MagiTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MagiTabBarController/MagiTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = MagiTabBarController;
+				PRODUCT_NAME = MagiTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D17C0CF11AFE03343DD316A4B459EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705268D54AFCD193D800F14D8F626201 /* Pods-MagiTabBarController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagiTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagiTabBarController_Example/Pods-MagiTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2CBE1A2C7CDC990DB5FF3642025536E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09723B260197C4383504FC6BDD6DF00D /* MagiTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MagiTabBarController/MagiTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MagiTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MagiTabBarController/MagiTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = MagiTabBarController;
+				PRODUCT_NAME = MagiTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D27CAC86511955D6AF5D9AF0B1F07F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569D798ADD2767500178F7138590FF60 /* Pods-MagiTabBarController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagiTabBarController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagiTabBarController_Tests/Pods-MagiTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3D9A722F7EC817F2BF54A07CC20C764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5577A179DE1D8FF746D617309C7A84F4 /* Pods-MagiTabBarController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagiTabBarController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagiTabBarController_Tests/Pods-MagiTabBarController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF315262E21452A6B66443CC748EA0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7975ADB543230AAEE366F93E8FA094F /* Pods-MagiTabBarController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagiTabBarController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagiTabBarController_Example/Pods-MagiTabBarController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31137F1734A639B97DB8FD2BB8969039 /* Build configuration list for PBXNativeTarget "Pods-MagiTabBarController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27CAC86511955D6AF5D9AF0B1F07F84 /* Debug */,
+				D3D9A722F7EC817F2BF54A07CC20C764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2C21CCDEE3E9891EE8BCF094397B2D /* Build configuration list for PBXNativeTarget "MagiTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FB4252ED8D00CFFC0A4AD5DF7D95F5 /* Debug */,
+				A2CBE1A2C7CDC990DB5FF3642025536E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97A45CBC899EE5E90E2B14B717EA03F /* Build configuration list for PBXNativeTarget "Pods-MagiTabBarController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D17C0CF11AFE03343DD316A4B459EB4 /* Debug */,
+				EF315262E21452A6B66443CC748EA0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

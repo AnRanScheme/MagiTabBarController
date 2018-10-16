@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MagiTabBarController_Example' do
+  pod 'MagiTabBarController', :path => '../'
+
+  target 'MagiTabBarController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
