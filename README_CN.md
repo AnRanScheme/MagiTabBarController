@@ -40,7 +40,7 @@
 ### CocoaPods
 
 ``` ruby
-pod "MagiTabBarController-swift"
+pod "MagiTabBarController"
 ```
 
 ### 手动安装
