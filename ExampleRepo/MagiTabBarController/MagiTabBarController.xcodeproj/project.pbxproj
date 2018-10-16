@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353E8B8B21758BFF003EE2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B8A21758BFF003EE2C8 /* AppDelegate.swift */; };
+		353E8B8D21758BFF003EE2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B8C21758BFF003EE2C8 /* ViewController.swift */; };
+		353E8B9021758BFF003EE2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B8E21758BFF003EE2C8 /* Main.storyboard */; };
+		353E8B9221758C01003EE2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B9121758C01003EE2C8 /* Assets.xcassets */; };
+		353E8B9521758C01003EE2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8B9321758C01003EE2C8 /* LaunchScreen.storyboard */; };
+		353E8BA021758C01003EE2C8 /* MagiTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8B9F21758C01003EE2C8 /* MagiTabBarControllerTests.swift */; };
+		353E8BAB21758C01003EE2C8 /* MagiTabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BAA21758C01003EE2C8 /* MagiTabBarControllerUITests.swift */; };
+		353E8BC321758E03003EE2C8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 353E8BC221758E03003EE2C8 /* Localizable.strings */; };
+		353E8BC621758E7A003EE2C8 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353E8BC521758E7A003EE2C8 /* WebView.storyboard */; };
+		353E8BC821758F78003EE2C8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BC721758F78003EE2C8 /* WebViewController.swift */; };
+		353E8BCA21759257003EE2C8 /* MagiNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8BC921759257003EE2C8 /* MagiNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		353E8B9C21758C01003EE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353E8B7F21758BFF003EE2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353E8B8621758BFF003EE2C8;
+			remoteInfo = MagiTabBarController;
+		};
+		353E8BA721758C01003EE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 353E8B7F21758BFF003EE2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 353E8B8621758BFF003EE2C8;
+			remoteInfo = MagiTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353E8B8721758BFF003EE2C8 /* MagiTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E8B8A21758BFF003EE2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		353E8B8C21758BFF003EE2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		353E8B8F21758BFF003EE2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		353E8B9121758C01003EE2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353E8B9421758C01003EE2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		353E8B9621758C01003EE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353E8B9B21758C01003EE2C8 /* MagiTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagiTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E8B9F21758C01003EE2C8 /* MagiTabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarControllerTests.swift; sourceTree = "<group>"; };
+		353E8BA121758C01003EE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353E8BA621758C01003EE2C8 /* MagiTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagiTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		353E8BAA21758C01003EE2C8 /* MagiTabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiTabBarControllerUITests.swift; sourceTree = "<group>"; };
+		353E8BAC21758C01003EE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353E8BC221758E03003EE2C8 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		353E8BC521758E7A003EE2C8 /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		353E8BC721758F78003EE2C8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		353E8BC921759257003EE2C8 /* MagiNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353E8B8421758BFF003EE2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E8B9821758C01003EE2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E8BA321758C01003EE2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353E8B7E21758BFF003EE2C8 = {
+			isa = PBXGroup;
+			children = (
+				353E8B8921758BFF003EE2C8 /* MagiTabBarController */,
+				353E8B9E21758C01003EE2C8 /* MagiTabBarControllerTests */,
+				353E8BA921758C01003EE2C8 /* MagiTabBarControllerUITests */,
+				353E8B8821758BFF003EE2C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353E8B8821758BFF003EE2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B8721758BFF003EE2C8 /* MagiTabBarController.app */,
+				353E8B9B21758C01003EE2C8 /* MagiTabBarControllerTests.xctest */,
+				353E8BA621758C01003EE2C8 /* MagiTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353E8B8921758BFF003EE2C8 /* MagiTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				353E8BB821758C1B003EE2C8 /* Sources */,
+				353E8BB921758C5D003EE2C8 /* Lottie */,
+				353E8B8A21758BFF003EE2C8 /* AppDelegate.swift */,
+				353E8BC421758E56003EE2C8 /* SubViewController */,
+				353E8B8C21758BFF003EE2C8 /* ViewController.swift */,
+				353E8BC921759257003EE2C8 /* MagiNavigationController.swift */,
+				353E8B8E21758BFF003EE2C8 /* Main.storyboard */,
+				353E8B9121758C01003EE2C8 /* Assets.xcassets */,
+				353E8B9321758C01003EE2C8 /* LaunchScreen.storyboard */,
+				353E8B9621758C01003EE2C8 /* Info.plist */,
+			);
+			path = MagiTabBarController;
+			sourceTree = "<group>";
+		};
+		353E8B9E21758C01003EE2C8 /* MagiTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				353E8B9F21758C01003EE2C8 /* MagiTabBarControllerTests.swift */,
+				353E8BA121758C01003EE2C8 /* Info.plist */,
+			);
+			path = MagiTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		353E8BA921758C01003EE2C8 /* MagiTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				353E8BAA21758C01003EE2C8 /* MagiTabBarControllerUITests.swift */,
+				353E8BAC21758C01003EE2C8 /* Info.plist */,
+			);
+			path = MagiTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		353E8BB821758C1B003EE2C8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				353E8BC221758E03003EE2C8 /* Localizable.strings */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		353E8BB921758C5D003EE2C8 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		353E8BC421758E56003EE2C8 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				353E8BC521758E7A003EE2C8 /* WebView.storyboard */,
+				353E8BC721758F78003EE2C8 /* WebViewController.swift */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353E8B8621758BFF003EE2C8 /* MagiTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353E8BAF21758C01003EE2C8 /* Build configuration list for PBXNativeTarget "MagiTabBarController" */;
+			buildPhases = (
+				353E8B8321758BFF003EE2C8 /* Sources */,
+				353E8B8421758BFF003EE2C8 /* Frameworks */,
+				353E8B8521758BFF003EE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagiTabBarController;
+			productName = MagiTabBarController;
+			productReference = 353E8B8721758BFF003EE2C8 /* MagiTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		353E8B9A21758C01003EE2C8 /* MagiTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353E8BB221758C01003EE2C8 /* Build configuration list for PBXNativeTarget "MagiTabBarControllerTests" */;
+			buildPhases = (
+				353E8B9721758C01003EE2C8 /* Sources */,
+				353E8B9821758C01003EE2C8 /* Frameworks */,
+				353E8B9921758C01003EE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353E8B9D21758C01003EE2C8 /* PBXTargetDependency */,
+			);
+			name = MagiTabBarControllerTests;
+			productName = MagiTabBarControllerTests;
+			productReference = 353E8B9B21758C01003EE2C8 /* MagiTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		353E8BA521758C01003EE2C8 /* MagiTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353E8BB521758C01003EE2C8 /* Build configuration list for PBXNativeTarget "MagiTabBarControllerUITests" */;
+			buildPhases = (
+				353E8BA221758C01003EE2C8 /* Sources */,
+				353E8BA321758C01003EE2C8 /* Frameworks */,
+				353E8BA421758C01003EE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				353E8BA821758C01003EE2C8 /* PBXTargetDependency */,
+			);
+			name = MagiTabBarControllerUITests;
+			productName = MagiTabBarControllerUITests;
+			productReference = 353E8BA621758C01003EE2C8 /* MagiTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353E8B7F21758BFF003EE2C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = anran;
+				TargetAttributes = {
+					353E8B8621758BFF003EE2C8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					353E8B9A21758C01003EE2C8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 353E8B8621758BFF003EE2C8;
+					};
+					353E8BA521758C01003EE2C8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 353E8B8621758BFF003EE2C8;
+					};
+				};
+			};
+			buildConfigurationList = 353E8B8221758BFF003EE2C8 /* Build configuration list for PBXProject "MagiTabBarController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353E8B7E21758BFF003EE2C8;
+			productRefGroup = 353E8B8821758BFF003EE2C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353E8B8621758BFF003EE2C8 /* MagiTabBarController */,
+				353E8B9A21758C01003EE2C8 /* MagiTabBarControllerTests */,
+				353E8BA521758C01003EE2C8 /* MagiTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353E8B8521758BFF003EE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E8B9521758C01003EE2C8 /* LaunchScreen.storyboard in Resources */,
+				353E8BC321758E03003EE2C8 /* Localizable.strings in Resources */,
+				353E8BC621758E7A003EE2C8 /* WebView.storyboard in Resources */,
+				353E8B9221758C01003EE2C8 /* Assets.xcassets in Resources */,
+				353E8B9021758BFF003EE2C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E8B9921758C01003EE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E8BA421758C01003EE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353E8B8321758BFF003EE2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E8B8D21758BFF003EE2C8 /* ViewController.swift in Sources */,
+				353E8B8B21758BFF003EE2C8 /* AppDelegate.swift in Sources */,
+				353E8BCA21759257003EE2C8 /* MagiNavigationController.swift in Sources */,
+				353E8BC821758F78003EE2C8 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E8B9721758C01003EE2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E8BA021758C01003EE2C8 /* MagiTabBarControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		353E8BA221758C01003EE2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353E8BAB21758C01003EE2C8 /* MagiTabBarControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		353E8B9D21758C01003EE2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353E8B8621758BFF003EE2C8 /* MagiTabBarController */;
+			targetProxy = 353E8B9C21758C01003EE2C8 /* PBXContainerItemProxy */;
+		};
+		353E8BA821758C01003EE2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 353E8B8621758BFF003EE2C8 /* MagiTabBarController */;
+			targetProxy = 353E8BA721758C01003EE2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		353E8B8E21758BFF003EE2C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353E8B8F21758BFF003EE2C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		353E8B9321758C01003EE2C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353E8B9421758C01003EE2C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353E8BAD21758C01003EE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		353E8BAE21758C01003EE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353E8BB021758C01003EE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagiTabBarController/Lottie",
+				);
+				INFOPLIST_FILE = MagiTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagiTabBarController.com.MagiTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353E8BB121758C01003EE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MagiTabBarController/Lottie",
+				);
+				INFOPLIST_FILE = MagiTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagiTabBarController.com.MagiTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		353E8BB321758C01003EE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				INFOPLIST_FILE = MagiTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagiTabBarController.com.MagiTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagiTabBarController.app/MagiTabBarController";
+			};
+			name = Debug;
+		};
+		353E8BB421758C01003EE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				INFOPLIST_FILE = MagiTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagiTabBarController.com.MagiTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagiTabBarController.app/MagiTabBarController";
+			};
+			name = Release;
+		};
+		353E8BB621758C01003EE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				INFOPLIST_FILE = MagiTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagiTabBarController.com.MagiTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagiTabBarController;
+			};
+			name = Debug;
+		};
+		353E8BB721758C01003EE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDBLA72SEX;
+				INFOPLIST_FILE = MagiTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagiTabBarController.com.MagiTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagiTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353E8B8221758BFF003EE2C8 /* Build configuration list for PBXProject "MagiTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E8BAD21758C01003EE2C8 /* Debug */,
+				353E8BAE21758C01003EE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353E8BAF21758C01003EE2C8 /* Build configuration list for PBXNativeTarget "MagiTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E8BB021758C01003EE2C8 /* Debug */,
+				353E8BB121758C01003EE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353E8BB221758C01003EE2C8 /* Build configuration list for PBXNativeTarget "MagiTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E8BB321758C01003EE2C8 /* Debug */,
+				353E8BB421758C01003EE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353E8BB521758C01003EE2C8 /* Build configuration list for PBXNativeTarget "MagiTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353E8BB621758C01003EE2C8 /* Debug */,
+				353E8BB721758C01003EE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353E8B7F21758BFF003EE2C8 /* Project object */;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web View Controller-->
+        <scene sceneID="MQJ-BI-SgZ">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" id="lPg-2N-sPi" customClass="WebViewController" customModule="MagiTabBarController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S3X-6j-d3v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycS-KL-1Fh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8s-wb-5lC">
+                                <rect key="frame" x="287" y="597" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="BAW-vf-YF0"/>
+                                    <constraint firstAttribute="height" constant="40" id="tgD-a1-9Xn"/>
+                                </constraints>
+                                <state key="normal" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismissAction:" destination="lPg-2N-sPi" eventType="touchUpInside" id="8Vm-Q7-a8m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8xY-mN-zqj" firstAttribute="bottom" secondItem="ycS-KL-1Fh" secondAttribute="bottom" id="0DL-PW-yd6"/>
+                            <constraint firstItem="8xY-mN-zqj" firstAttribute="bottom" secondItem="l8s-wb-5lC" secondAttribute="bottom" constant="30" id="9BM-dT-clw"/>
+                            <constraint firstItem="ycS-KL-1Fh" firstAttribute="leading" secondItem="8xY-mN-zqj" secondAttribute="leading" id="9IG-7R-1Yn"/>
+                            <constraint firstItem="ycS-KL-1Fh" firstAttribute="trailing" secondItem="8xY-mN-zqj" secondAttribute="trailing" id="B2M-22-1sq"/>
+                            <constraint firstItem="ycS-KL-1Fh" firstAttribute="top" secondItem="8xY-mN-zqj" secondAttribute="top" id="cZ7-Pr-vBp"/>
+                            <constraint firstItem="8xY-mN-zqj" firstAttribute="trailing" secondItem="l8s-wb-5lC" secondAttribute="trailing" constant="8" id="xOg-8p-Zhl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8xY-mN-zqj"/>
+                    </view>
+                    <connections>
+                        <outlet property="dismissButton" destination="l8s-wb-5lC" id="e0n-aV-wpb"/>
+                        <outlet property="webView" destination="ycS-KL-1Fh" id="i1H-Yp-3Xp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uYr-r7-DrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266.39999999999998" y="-61.619190404797607"/>
+        </scene>
+    </scenes>
+</document>
