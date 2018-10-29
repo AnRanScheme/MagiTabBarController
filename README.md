@@ -33,7 +33,7 @@ In real-world development, we may encounter the situation that customizing the U
 
 ## Demo
 
-You can download and build MagiTabBarControllerExample project, and you will find more examples to use ESTabBarController, and also more examples to customize UITabBar。
+You can download and build MagiTabBarControllerExample project, and you will find more examples to use MagiTabBarController, and also more examples to customize UITabBar。
 
 ## Usage
 
